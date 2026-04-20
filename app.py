@@ -7,11 +7,12 @@ import plotly.graph_objects as go
 import os
 
 # --- Define Paths ---
-BACKEND_DIR = r"D:\webstreamlit"
-MODEL_PATH = os.path.join(BACKEND_DIR, "lstm_model.h5") # Update to adamax_model.h5 if you export it!
-SCALER_PATH = os.path.join(BACKEND_DIR, "scaler.pkl")
-DATA_PATH = os.path.join(BACKEND_DIR, "recent_48_months.csv")
-GRAPH_PATH = os.path.join(BACKEND_DIR, "optimizer_loss.png")
+# --- Define Paths ---
+# Updated to use relative paths for Streamlit Cloud deployment
+MODEL_PATH = "lstm_model.h5" 
+SCALER_PATH = "scaler.pkl"
+DATA_PATH = "recent_48_months.csv"
+GRAPH_PATH = "optimizer_loss.png"
 
 # --- Page Config ---
 st.set_page_config(page_title="SPEI-3 Drought Predictor", page_icon="🌍", layout="wide")
