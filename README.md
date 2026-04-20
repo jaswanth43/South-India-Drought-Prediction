@@ -34,7 +34,7 @@ The model demonstrated exceptional predictive accuracy, with the **Adamax optimi
 ## 🚀 Live Dashboard
 The inference engine is deployed as an interactive web application. Users can view historical trends and run the prediction engine to generate a recursive 3-month future forecast.
 
-**[Link to Live Streamlit Application]** *(Insert your Streamlit Cloud URL here)*
+**[Link to Live Streamlit Application]** https://south-india-drought-prediction-9817.streamlit.app/
 
 ## 💻 Tech Stack
 * **Language:** Python
